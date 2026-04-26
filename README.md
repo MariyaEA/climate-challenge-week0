@@ -93,7 +93,7 @@ climate-challenge-week0/
 ---
 ```
 ## Setup Instructions
-``
+
 1. Clone the repository:
 `git clone https://github.com/YOUR-USERNAME/climate-challenge-week0.git`
 `cd climate-challenge-week0`
@@ -171,4 +171,3 @@ The findings highlight strong seasonal rainfall behavior and potential warming t
 - Apply predictive modeling techniques
 - Develop interactive dashboards
 
----
