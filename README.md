@@ -106,3 +106,57 @@ pip install -r requirements.txt
 
 4. Run the notebooks:
 jupyter notebook
+
+## Development Setup and Workflow
+
+### Virtual Environment
+
+A Python virtual environment was created to ensure dependency isolation and reproducibility across systems.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+## Continuous Integration (CI)
+
+A GitHub Actions workflow is configured in the .github/workflows/ directory.
+
+The CI pipeline is automatically triggered on every push and pull request. It helps validate the project structure and ensures that the repository remains reproducible and consistent.
+
+This setup supports good engineering practices by preventing broken updates and maintaining code reliability.
+
+## Branching Strategy
+
+A feature-branch workflow was used during development:
+
+main branch → stable version of the project
+setup-task branch → used for development and updates
+
+Changes were committed to the feature branch and later merged into the main branch through pull requests.
+
+This approach helps prevent breaking the main project and ensures controlled, trackable updates.
+
+## Reproducibility
+
+To reproduce the project:
+
+Clone the repository
+Create and activate the virtual environment
+Install dependencies using requirements.txt
+Run the Jupyter notebooks
+
+This ensures that the entire analysis can be executed consistently across different environments.
+
+## Conclusion
+
+This project provides a structured analysis of climate patterns across multiple African countries.
+
+The findings highlight strong seasonal rainfall behavior and potential warming trends, offering insights relevant for climate risk assessment and policy planning.
+
+## Future Work
+
+Extend analysis to additional countries
+Incorporate longer time-series data
+Apply predictive modeling techniques
+Develop interactive dashboards
