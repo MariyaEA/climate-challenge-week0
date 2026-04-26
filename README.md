@@ -90,22 +90,26 @@ climate-challenge-week0/
 ├── requirements.txt
 └── .gitignore
 
-
+---
+```
 ## Setup Instructions
-
+```
+```
 1. Clone the repository:
-git clone https://github.com/YOUR-USERNAME/climate-challenge-week0.git
-cd climate-challenge-week0
+`git clone https://github.com/YOUR-USERNAME/climate-challenge-week0.git`
+`cd climate-challenge-week0`
 
 2. Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
+`python -m venv venv`
+`source venv/bin/activate`  # Mac/Linux
 
 3. Install dependencies:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 4. Run the notebooks:
-jupyter notebook
+`jupyter notebook`
+
+---
 
 ## Development Setup and Workflow
 
@@ -113,10 +117,9 @@ jupyter notebook
 
 A Python virtual environment was created to ensure dependency isolation and reproducibility across systems.
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+- `python3 -m venv .venv`
+- `source .venv/bin/activate`
+- `pip install -r requirements.txt`
 
 ## Continuous Integration (CI)
 
@@ -126,27 +129,33 @@ The CI pipeline is automatically triggered on every push and pull request. It he
 
 This setup supports good engineering practices by preventing broken updates and maintaining code reliability.
 
+---
+
 ## Branching Strategy
 
 A feature-branch workflow was used during development:
 
-main branch → stable version of the project
-setup-task branch → used for development and updates
+- main branch → stable version of the project
+- setup-task branch → used for development and updates
 
 Changes were committed to the feature branch and later merged into the main branch through pull requests.
 
 This approach helps prevent breaking the main project and ensures controlled, trackable updates.
 
+---
+
 ## Reproducibility
 
 To reproduce the project:
 
-Clone the repository
-Create and activate the virtual environment
-Install dependencies using requirements.txt
-Run the Jupyter notebooks
+- Clone the repository
+- Create and activate the virtual environment
+- Install dependencies using requirements.txt
+- Run the Jupyter notebooks
 
 This ensures that the entire analysis can be executed consistently across different environments.
+
+---
 
 ## Conclusion
 
@@ -154,9 +163,13 @@ This project provides a structured analysis of climate patterns across multiple 
 
 The findings highlight strong seasonal rainfall behavior and potential warming trends, offering insights relevant for climate risk assessment and policy planning.
 
+---
+
 ## Future Work
 
-Extend analysis to additional countries
-Incorporate longer time-series data
-Apply predictive modeling techniques
-Develop interactive dashboards
+- Extend analysis to additional countries
+- Incorporate longer time-series data
+- Apply predictive modeling techniques
+- Develop interactive dashboards
+
+---
