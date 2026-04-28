@@ -6,6 +6,7 @@ This project analyzes historical climate and weather data from five African coun
 
 The goal is to identify climate trends, seasonal patterns, anomalies, and vulnerability signals that can support evidence-based climate policy discussions ahead of COP32.
 
+This project translates raw climate data into policy-relevant insights aligned with COP32 negotiation priorities.
 ---
 
 ## Business Context
